@@ -1,0 +1,14 @@
+p {
+    text-shadow: 10px 10px 1px rgb(117, 147, 117);
+}
+
+
+p {
+	color: white;
+	background: red;
+	font-style: italic;
+	text-align: left;
+	font-size: large;
+	}
+
+/* this is how you write comments in css code */
