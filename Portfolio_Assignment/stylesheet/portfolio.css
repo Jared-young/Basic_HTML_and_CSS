@@ -6,7 +6,7 @@ body {
 
 /* Heading 1 elements */
 h1 {
-    text-transform: uppercase; /* Capitalizing all h1 headings */
+    text-transform: uppercase; /* Capitlizing all h1 headings */
     font-family: "Trebuchet MS", Optima; /* Sets the font family of all h1 headings */
     text-align: center; /* Centering all h1 elements */
     margin-top: 3%; /* Adds a small margin above h1 elements */
@@ -32,7 +32,7 @@ p {
     letter-spacing: 1px; /* This expands the text slightly */
     font-size: 20px;
     padding-left: 20px; /* Adds padding to the left of the paragraph element */
-    padding-right: 20px; /* Adds padding to the right of the paragraph element */
+    padding-right: 20px; /* Adds padding to the right of the paragraphelement */
 }
 
 /* Paragraph element hover effect */
@@ -54,17 +54,17 @@ p:hover {
 
 /* Anchor elements */
 a {
-    color: blue; /* This ensures all links are blue */
+    color: rgb(68, 123, 59); /* This ensures all links are geen for fun */
 }
 
 /* Quotation elements */
 q {
-    font-style: italic; /* This makes the quote italicized */
+    font-style: bold; /* This makes the quote bold */
 }
 
 /* Image elements */
 img {
-    filter: grayscale(75%); /* This rids our pictures of 75% of their color */
+    filter: grayscale(50%); /* This rids our pictures of 50% of their color */
     border-radius: 8px; /* Gives all images slightly rounded corners */
     max-width: 100%; /* Ensures all images stay within the width of their container */
     height: 340px; /* Sets the height of all images */
@@ -99,13 +99,13 @@ footer {
 /***** NAVBAR STYLING *****/
 .Navbar {
     overflow: hidden; /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
-    background-color: black; /* This colors the navbar black */
+    background-color: rgb(249, 6, 6); /* This colors the navbar redish */
     position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
     top: 0; /* This ensures no space is displayed above the navbar */
     width: 100%; /* This makes the navbar span the entire width of the page */
     z-index: 1; /* This ensures other elements don't display over the navbar */
-    -webkit-animation: moveNav 5s; /* This applies the moveNav animation below for Safari 4.0 - 8.0 */
-    animation: moveNav 5s; /* This applies the moveNav animation for all other browsers */
+    -webkit-animation: moveNav 1s; /* This applies the moveNav animation below for Safari 4.0 - 8.0 */
+    animation: moveNav 1s; /* This applies the moveNav animation for all other browsers */
 }
 
 /* moveNav animation effect for moving the nav bar in from the left of the screen */
@@ -116,7 +116,7 @@ footer {
 
 /* Navbar links */
 .Navbar a {
-    float: left; /* This specifies that the text floats on the left on the navbar */
+    float: right; /* This specifies that the text floats on the riht on the navbar */
     display: block; /* This ensures that other text will be displayed on the same line or row, instead of a new line */
     color: white; /* This is the font color for text on our navbar */
     padding: 14px 16px; /* This adds padding around our text */
@@ -161,7 +161,7 @@ footer {
 #Typing_Video {
     position: fixed; /* This fixes the video to the page */
     right: 0; /* This ensures there is no space between the edge of the video and the edge of the page */
-    bottom: 0; /* This ensures no space between the bottom of the video and the bottom of the page */
+    bottom: 0; /* This ensures no space ebtween the bottom of the video and the bottom of the page */
     min-width: 100%; /* This ensures the video is displayed across the full width of the page */
     z-index: -1; /* This places the video behind the other elements on the page */
 }
@@ -256,12 +256,12 @@ input[type=text]:hover {
 
 /* Submit button */
 input[type=submit] {
-    background-color: black; /* Sets the background color of the submit button to black */
+    background-color: rgb(172, 48, 48); /* Sets the backgroundcolor of the submit button to black */
     color: white; /* Sets the font color of the Submit button to white */
     font-weight: bold; /* Makes the font of the submit button bold */
     padding: 12px 20px; /* Adds padding to the submit button */
     border: none; /* Removes the border from the submit button */
-    border-radius: 4px; /* Gives the submit button the same rounded corners as the text boxes */
+    border-radius: 15%; /* Gives the submit button the same rounded corners as the text boxes */
     cursor: pointer; /* Changes the cursor to pointer when over the submit button */
     display: block; /* Allows the submit button to be centered */
     margin-left: auto; /* In combination with "margin-right: auto" this will center the submit button */
