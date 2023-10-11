@@ -6,3 +6,6 @@ Inside the basic html website you will find my first web page that shows an exam
 
 I also created a personal website that shares my professional experinces from this course and well as my professional interests. 
 
+For the latest section of the course I updated this personal website to be a lot more interactive! 
+
+Throughout my latest course on JavaScript I have completed 13 different projects ranging from very simplistic alerts to a pizza comapnies website where you can place an online order. I also created a tic tac toe game that can be played against a computer! 
